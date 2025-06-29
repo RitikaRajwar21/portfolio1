@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ritika Rajwar | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color:black;
+      color: aliceblue;
+      font-family: Arial, sans-serif;
+      font-size: 1.2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: blue;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: aliceblue;
+      font-size: 1.1rem;
+    }
+
+    .left {
+      font-size: 1.5em;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px 5% 30px;
+      flex-wrap: wrap;
+    }
+
+    .firstsection > div {
+      flex: 1;
+      min-width: 300px;
+      margin: 20px;
+    }
+
+    .leftsection {
+      font-size: 2.5rem;
+      margin: 20px 0;
+    }
+
+    .leftsection .btn {
+      background-color: rgb(147, 44, 130);
+      color: aliceblue;
+      font-size: 20px;
+      border: 2px solid;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+    .green{
+        color:rgb(101, 207, 246);
+    }
+    .blue{
+        color: #90ecbb;
+    }
+    #element {
+      color: blueviolet;
+    }
+    section {
+      padding: 40px 10% 30px;
+      font-size: 1.3rem;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #00ffff;
+      text-align: center;
+    }
+
+    .rigthsection img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    background: none;
+    pointer-events: none; 
+    transition: none !important;
+}
+
+    #projects .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .project-card {
+      background-color: #111;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 255, 255, 0.3);
+    }
+
+    .project-card i {
+      font-size: 2rem;
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
+
+    .project-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #00ffff;
+    }
+
+    .project-desc {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #000020;
+      padding: 40px 10%;
+      text-align: center;
+      color: aliceblue;
+      border-top: 1px solid #444;
+    }
+
+    .contact-icons {
+      margin-top: 20px;
+    }
+
+    .contact-icons a {
+      margin: 0 15px;
+      color: #00ffff;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .contact-icons a:hover {
+      transform: scale(1.2);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <h1>RITIKA RAJWAR</h1>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection" id="home">
+      <div class="leftsection">
+        Hi, my name is <span class="purple">Ritika</span>
+        <div>and I am passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <a href="resume1.pdf" download class="btn">Download Resume</a>
+          <a href="https://github.com/RitikaRajwar21" target="_blank" class="btn">Visit GitHub</a>
+        </div>
+      </div>
+      <div class="rigthsection img">
+        <img src="bgg.jpg" alt="devp.jpg">
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        <strong><span class="green">Hello! I am Ritika Rajwar.</span></strong><br>
+        <p>
+  I am a passionate <span class="blue">Web and Software Developer</span>, currently pursuing a B.Tech in Computer Science and Engineering from <strong>Graphic Era Hill University, Haldwani</strong> (Batch 2026).  
+  <br><br>
+  With a strong foundation in <strong>C/C++</strong>, <strong>frontend technologies</strong> (HTML, CSS, JavaScript), and <strong>React</strong>, I have developed and contributed to multiple projects in both <strong>web development</strong> and <strong>AI/ML domains</strong>.  
+  <br><br>
+  Known for my motivation, dedication, and collaborative spirit, I actively engage in extracurricular activities, including membership in the <strong>university's cultural club</strong>. I am also <strong>Machine Learning certified</strong> by Great Learning.
+</p>
+
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-item">💻 HTML</div>
+      <div class="skill-item">🎨 CSS</div>
+      <div class="skill-item">🧠 JavaScript</div>
+      <div class="skill-item">⚛️ React</div>
+      <div class="skill-item">🧮 C/C++</div>
+      <div class="skill-item">🐍 Python</div>
+      <div class="skill-item">🗃️ MySQL</div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <i class="fas fa-laptop-code"></i>
+          <div class="project-title">Portfolio Website</div>
+          <div class="project-desc">A responsive website showcasing my profile, built with HTML, CSS, and JS.</div>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-check-square"></i>
+          <div class="project-title">Todo App</div>
+          <div class="project-desc">A React-based todo list application with CRUD operations.</div>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-question-circle"></i>
+          <div class="project-title">Quiz Website</div>
+          <div class="project-desc">An interactive quiz platform with score tracking and question randomization.</div>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-sign-language"></i>
+          <div class="project-title">Sign Language Detector</div>
+          <div class="project-desc">AI/ML model to interpret hand gestures and convert them to text.</div>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-mouse-pointer"></i>
+          <div class="project-title">Virtual Mouse</div>
+          <div class="project-desc">A gesture-controlled mouse using OpenCV and hand tracking.</div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-item">
+        <p><i class="fas fa-envelope"></i> ritikarajwar65@gmail.com</p>
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/ritika-rajwar-6525a0251" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://www.instagram.com/ritika_rajwar_21" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="mailto:ritikarajwar65@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
+      <div style="margin-top: 40px; font-size: 1rem; color: #aaa;">
+    © 2025 Ritika Rajwar. All Rights Reserved.
+  </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Software Developer'],
+      typeSpeed: 50,
+      loop: true
+    });
+  </script>
+</body>
+</html>
